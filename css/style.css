@@ -1,0 +1,57 @@
+input {
+  width: 250px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.focus,
+.red {
+  background-color: red;
+}
+
+.blur,
+.green {
+  background-color: green;
+}
+#test {
+    color: blue;
+    font-size: 25px;
+}
+.span-box {
+  display: flex;
+}
+.span-price {
+  border: 1px solid gray;
+  height: 20px;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.span-button {
+  padding: 0;
+  margin-left: 6px;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+.price {
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-top: 15px;
+}
+
+.price-focus {
+  outline: 0;
+  border: 3px solid green;
+}
+.price-blur {
+  color: green;
+  font-size: 18px;
+  display: n;
+}
+
+.price-blur-error {
+  border: 3px solid red;
+}
